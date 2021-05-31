@@ -4,21 +4,21 @@
 Функција која што за дадена листа од времиња во 24-часовен формат враќа листа на овие времиња претворени во секунди. 
 
 # Control Flow Graph
-( https://user-images.githubusercontent.com/82414413/120224430-bdedae80-c243-11eb-8000-2050d04c468e.png)
+https://user-images.githubusercontent.com/82414413/120224430-bdedae80-c243-11eb-8000-2050d04c468e.png
 
 # Цикломатска комплексност
 Цикломатската комплексност на овој код е 8, истата ја добив преку формулата P+1, каде што P е бројот на предикатни јазли[(3.1),(7),(8),(11),(17),(12),(14)]. Во случајoв P=7, па цикломатската комплексност е 8. Цикломатската комплексност на кодот може да се пресмета и со помош на бројот на јазли-ј и рабови-r, односно со формулата r-ј+2 = 27-21+2 = 8.
 
 # Тест случаи според критериумот Every branch
-( https://user-images.githubusercontent.com/82414413/120224524-eaa1c600-c243-11eb-963b-d557b554889a.png)
+https://user-images.githubusercontent.com/82414413/120224524-eaa1c600-c243-11eb-963b-d557b554889a.png
 
 
 # Тест случаи според критериумот  Multiple condition
 Во табелата се пркажани сите можни случаи според Multiple condition критериумот:
-( https://user-images.githubusercontent.com/82414413/120224661-29378080-c244-11eb-8fba-8b2be2432afb.png)
+https://user-images.githubusercontent.com/82414413/120224661-29378080-c244-11eb-8fba-8b2be2432afb.png
 
 Подоле се прикажани тест случаите(се праќаат објекти од класата Time):
-( https://user-images.githubusercontent.com/82414413/120224712-3f454100-c244-11eb-9bb1-5739c66a0f6e.png)
+https://user-images.githubusercontent.com/82414413/120224712-3f454100-c244-11eb-9bb1-5739c66a0f6e.png
 
 # Објаснување на напишаните unit tests
 Тестовите се напишани во две функции: EveryBranchTest - извршување на сите тестови според критериумот Every branch и MultipleConditionsTest - извршување на сите тестови според критериумот Multiple condition. Тестовите се прикажани во табелите погоре соодветно во функциите според критериумот. 
